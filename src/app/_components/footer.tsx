@@ -7,7 +7,7 @@ import Image from "next/image";
 import {
   FacebookLogo,
   InstagramLogo,
-  YoutubeLogo,
+  TiktokLogo,
 } from "@phosphor-icons/react/dist/ssr";
 
 const brands = [
@@ -71,14 +71,14 @@ export function Footer() {
           <div>
             <h3 className="text-2xl font-semibold mb-2">Redes sociais</h3>
             <div className="flex gap-4">
-              <a href="#" target="_blank">
+              <a href="https://www.facebook.com.br/" target="_blank">
                 <FacebookLogo className="w-8 h-8" />
               </a>
-              <a href="#" target="_blank">
+              <a href="https://www.instagram.com/devgabriel1/" target="_blank">
                 <InstagramLogo className="w-8 h-8" />
               </a>
-              <a href="#" target="_blank">
-                <YoutubeLogo className="w-8 h-8" />
+              <a href="https://www.tiktok.com/pt-BR/" target="_blank">
+                <TiktokLogo className="w-8 h-8" />
               </a>
             </div>
           </div>
