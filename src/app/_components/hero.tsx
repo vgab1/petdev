@@ -35,7 +35,7 @@ export function Hero() {
               data-aos="fade-up"
               data-aos-delay="500"
               target="_blank"
-              href={`https://wa.me/5561996429369?text=Olá vim pelo site e gostaria de mais informações`}
+              href="https://www.instagram.com/devgabriel1/"
               className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
             >
               <WhatsappLogo className="w-5 h-5" />
